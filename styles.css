@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+h1, h2, p, h4{
+    text-align: center;
+}
+
+.seccion{
+    margin: 20px;
+    border: 1px solid black;
+    
+
+}
+
+input{
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#results{
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
