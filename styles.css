@@ -7,11 +7,13 @@ h1, h2, p, h4{
     text-align: center;
 }
 
-.seccion{
-    margin: 20px;
-    border: 1px solid black;
-    
+h1, h2{
+    font-size: 25px;
+}
 
+.seccion{
+    margin: 20px;    
+    font-size: 15px;
 }
 
 input{
@@ -22,6 +24,7 @@ input{
     height: 30px;
     display: block;
     border-radius: 15px;
+    border-color: gray;
 }
 
 button{
@@ -41,4 +44,16 @@ button{
     text-align: center;
     margin-top: 10px;
     color: red;
+}
+
+hr {
+    width: 50%;
+    border: dotted;
+    color: gray;
+    outline: none;
+    border-radius: 60px;
+}
+
+a{
+    text-decoration: none;
 }
